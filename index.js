@@ -6,7 +6,7 @@ const {chromium}= require('playwright');
     //si es headless: true --> no se verá el navegador
     const browser = await chromium.launch({headless : false});
 
-    const context = await browser.newContext(/*{recordVideo:{dir: './videos'}}*/);
+    const context = await browser.newContext({recordVideo:{dir: './videos'}});
     const page = await context.newPage();
 
     await page.goto('https://dev.to'); //node index.js

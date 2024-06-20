@@ -24,6 +24,7 @@ We enter each one of them and extract and save the title.
 
 \
 Result
+
 <img src="./Readme_images/Step4.jpg"/>
 
 
